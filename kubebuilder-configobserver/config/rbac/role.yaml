@@ -1,0 +1,32 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: manager-role
+rules:
+- apiGroups:
+  - configobserver.example.com
+  resources:
+  - configobservers
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - configobserver.example.com
+  resources:
+  - configobservers/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - configobserver.example.com
+  resources:
+  - configobservers/status
+  verbs:
+  - get
+  - patch
+  - update

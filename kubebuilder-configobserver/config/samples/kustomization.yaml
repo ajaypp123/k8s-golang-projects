@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- configobserver_v1_configobserver.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples
