@@ -1,0 +1,8 @@
+apiVersion: example.com/v1
+kind: ConfigObserver
+metadata:
+  name: my-observer
+spec:
+  deploymentName: my-hello-world
+  versionConfigMap: version-config
+  replicaConfigMap: replica-config

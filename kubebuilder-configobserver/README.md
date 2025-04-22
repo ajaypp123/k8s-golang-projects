@@ -1,8 +1,8 @@
 # kubebuilder-configobserver
-// TODO(user): Add simple overview of use/purpose
+Simple project which update configmap when deployment is scaled
 
 ## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+Simple project which update configmap when deployment is scaled
 
 ## Getting Started
 
